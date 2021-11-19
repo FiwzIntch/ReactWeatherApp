@@ -1,0 +1,67 @@
+.App {
+  margin: 15px auto;
+  width: 460px;
+  height: 860px;
+  background-image: url("images/app.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.2 ease;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.App:hover {
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+}
+
+.App.hot {
+  background-image: url("images/summer.jpg");
+}
+
+.App.cold {
+  background-image: url("images/winter.jpg");
+}
+
+.search-container {
+  padding: 25px;
+  text-align: center;
+}
+
+.search-bar {
+  width: 90%;
+  border: 2px solid rgba(255, 255, 255, 0);
+  border-radius: 5px;
+  height: 35px;
+  padding: 0px 5px;
+}
+
+.content-container {
+  margin-top: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+}
+
+.content-container .country {
+  font-size: 38px;
+}
+
+.content-container .temperature {
+  margin-top: 40px;
+  font-size: 86px;
+}
+
+.content-container .description {
+  margin-top: 15px;
+  font-size: 32px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
